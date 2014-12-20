@@ -57,7 +57,7 @@ function.
                     return(m)
             }
             data <- x$get()
-            m <- mean(data, ...)
+            m <- mean(data, ...)PA
             x$setmean(m)
             m
     }
